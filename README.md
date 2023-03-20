@@ -1,6 +1,6 @@
 # Python practices and projects
 ## Motivtion
-The purpose of this repositroy is to document the process toward the dream of computer engineering. 
+The purpose of this repositroy is to document the process of building technique in programming. 
 
 As wise man once said: It's never too late to learn!
 ## About the folder
