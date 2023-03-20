@@ -7,3 +7,4 @@ As wise man once said: It's never too late to learn!
 1. The **PY4E** folder contaisn notes and practices from [Couresa: Python for Evrybody Specialization](https://www.coursera.org/specializations/python?).
 2. The **DQ** folder contains notes and pratices from [Dataquest: Probability and Statistics with Python](https://www.dataquest.io/path/probability-and-statistics-with-python/).
 3. The **Projects** folder contain application of ideas from [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) website.
+   (*Projects will be uploaded as soon as it is finished)
