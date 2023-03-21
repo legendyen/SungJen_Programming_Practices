@@ -10,18 +10,20 @@ def encrypt(plain_text, shift_amount):
   for i in plain_text:
     position = alphabet.index(i)
     new_position = position + shift_amount
+    
     if new_position > 25:
       new_position = new_position -26 
     #Debug for list index put of range
+    
     new_text = new_text + alphabet[new_position]
   print("The encoded text is", new_text)
-  
-    #Inside the 'encrypt' function, shift each letter of the 'text' forwards in the alphabet by the shift amount and print the encrypted text.
-    #e.g. 
-    #plain_text = "hello"
-    #shift = 5
-    #cipher_text = "mjqqt"
-    #print output: "The encoded text is mjqqt"
 
 #Call the encrypt function and pass in the user inputs.
 encrypt(plain_text=text, shift_amount=shift)
+
+#Inside the 'encrypt' function, shift each letter of the 'text' forwards in the alphabet by the shift amount and print the encrypted text.
+#e.g. 
+#plain_text = "hello"
+#shift = 5
+#cipher_text = "mjqqt"
+#print output: "The encoded text is mjqqt"
