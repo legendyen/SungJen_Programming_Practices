@@ -4,15 +4,16 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
-# Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
+#Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
 def encrypt(plain_text, shift_amount):
   new_text = ''
   for i in plain_text:
-    if alphabet.index(i) + shift_amount > 25:
-      new_position = i - 26 
-    else:
-      new_position = alphabet.index(i) + shift_amount
-    new_text += alphabet[new_position]
+    position = alphabet.index(i)
+    new_position = position + shift_amount
+    if new_position > 25:
+      new_position = new_position -26 
+    #Debug for list index put of range
+    new_text = new_text + alphabet[new_position]
   print("The encoded text is", new_text)
   
     #Inside the 'encrypt' function, shift each letter of the 'text' forwards in the alphabet by the shift amount and print the encrypted text.
@@ -22,5 +23,5 @@ def encrypt(plain_text, shift_amount):
     #cipher_text = "mjqqt"
     #print output: "The encoded text is mjqqt"
 
-# Call the encrypt function and pass in the user inputs. You should be able to test the code and encrypt a message. 
+#Call the encrypt function and pass in the user inputs.
 encrypt(plain_text=text, shift_amount=shift)
