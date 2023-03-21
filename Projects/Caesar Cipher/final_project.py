@@ -1,8 +1,8 @@
 def caesar(start_text, shift_amount, cipher_direction):
   end_text = ""
+  shift_amount = shift_amount % 26
   if direction == 'decode':
     shift_amount = shift_amount * -1 
-  shift = shift % 26
   
   for i in start_text:
     position = alphabet.index(i)
