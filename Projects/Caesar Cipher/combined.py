@@ -3,7 +3,7 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
-def caesar(start_text, shift_amount, direction):
+def caesar(start_text, shift_amount, cipher_direction):
   end_text = ""
   if direction == 'decode':
     shift = shift * -1
@@ -18,4 +18,4 @@ def caesar(start_text, shift_amount, direction):
     end_text = end_text + alphabet[new_position]
   print(f"The {direction} text is {end_tet}")
 
-caesar()
+caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
