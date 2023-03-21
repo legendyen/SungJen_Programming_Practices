@@ -1,5 +1,6 @@
 def caesar(start_text, shift_amount, cipher_direction):
   end_text = ""
+  #use the modulus (%) so that the program continues to work even if the user enters a shift number greater than 26
   shift_amount = shift_amount % 26
   if direction == 'decode':
     shift_amount = shift_amount * -1 
@@ -17,12 +18,16 @@ def caesar(start_text, shift_amount, cipher_direction):
 
   
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+# Prompt a while loop to continue the program
 prompt = True
 while prompt == True:
   direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
   text = input("Type your message:\n").lower()
   shift = int(input("Type the shift number:\n"))
   caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
+  
+  # Create a flag to prompt while loop to continue ot break
   reply = input("Type 'y' if you want to go again. Otherwise type 'n'\n")
   if reply == 'n':
     prompt = False
