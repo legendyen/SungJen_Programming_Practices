@@ -16,6 +16,6 @@ def caesar(start_text, shift_amount, cipher_direction):
       new_position = new_postion + 26
  
     end_text = end_text + alphabet[new_position]
-  print(f"The {direction} text is {end_tet}")
+  print(f"The {direction} text is {end_text}")
 
 caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
