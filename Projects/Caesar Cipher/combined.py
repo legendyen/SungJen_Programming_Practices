@@ -11,7 +11,7 @@ def caesar(start_text, shift_amount, direction):
     position = alphabet.index(i)
     new_position = position + shift_amount
     if new_position > 25:
-      new_position = new_position -26 
+      new_position = new_position - 26 
     elif new_position < 0:
       new_position = new_postion + 26
  
