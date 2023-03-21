@@ -37,6 +37,6 @@ if direction == 'encode':
 elif direction == 'decode':
   decrypt(cipher_text=text, shift_amount=shift)
 else:
-  quit()
+  exit()
   
   
