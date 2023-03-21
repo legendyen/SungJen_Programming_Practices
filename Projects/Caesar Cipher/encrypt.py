@@ -19,4 +19,4 @@ def encrypt(plain_text, shift_amount):
     #print output: "The encoded text is mjqqt"
 
 # Call the encrypt function and pass in the user inputs. You should be able to test the code and encrypt a message. 
-encrypt(text, shift)
+encrypt(plain_text=text, shift_amount=shift)
