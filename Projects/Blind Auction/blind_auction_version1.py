@@ -9,7 +9,7 @@ prompt = True
 bid_dict = {}
 while prompt == True:
   name = input("What is your name?\n")
-  bid = input("What is your bid?: \n$")
+  bid = int(input("What is your bid?: \n$"))
   bid_dict[name] = bid
   
   # set up if-else statements to excecute control flow whether to clear the console or stop the loop
