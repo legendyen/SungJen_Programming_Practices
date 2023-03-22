@@ -15,3 +15,5 @@ Practice control flow (loops, nested loops, continue, break) and functions that 
 4. You will get "Result: XXX"
 5. Press "Enter" to continue (accumulate the current result) or "Space" to clear all (back to zero)
 6. You can enter "OFF" (case insensitive) whenever a calculation is over
+
+![Screenshot 2023-03-23 034546](https://user-images.githubusercontent.com/20420765/227019600-9eb6b535-b21f-487c-be5e-bb888139831c.png)
