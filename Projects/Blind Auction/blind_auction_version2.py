@@ -1,3 +1,4 @@
+# import os.system module to clear console for every new bid
 import os
 clear = lambda: os.system('cls')
 clear()
@@ -10,13 +11,15 @@ while prompt == True:
   name = input("What is your name?\n")
   bid = input("What is your bid?: \n$")
   bid_dict[name] = bid
+  
+  # set up if-else statements to excecute control flow whether to clear the console or stop the loop
   question = input("Are there any other bidders? Type 'y' or 'n'\n")
   if question == 'y':
     clear()
   elif question == 'n':
     prompt = False
     
-    # Set default value to None and check for largest number in bid_dictionary
+    # set default value to None and check for largest number in bid_dictionary
     highest_price = None
     highest_bidder_name = None
     for name, bid in bid_dict.items():
