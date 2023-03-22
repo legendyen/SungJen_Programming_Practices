@@ -91,8 +91,6 @@ operations = {
 }
 
 
-import os
-clear = lambda: os.system('cls')
 
 switch = True
 while switch == True:
@@ -128,7 +126,6 @@ while switch == True:
     elif choice == " ":
       num1 = 0
       print(num1)
-      clear()
     elif choice == "OFF":
       switch = False
       break
