@@ -96,7 +96,7 @@ switch = True
 while switch == True:
   num1 = input("ON:\n").upper()
   if num1 != "OFF":
-    num1 = int(num1)
+    num1 = float(num1)
   else:
     break
   
@@ -108,13 +108,13 @@ while switch == True:
       print("\n")
       num1 = input("ON:\n").upper()
       if num1 != "OFF":
-        num1 = int(num1)
+        num1 = float(num1)
         command = input()
       else:
         switch = False
         break
       
-    num2 = int(input())
+    num2 = float(input())
     result = operations[command](num1, num2)
     print(f"Result: {result}\n")
     
