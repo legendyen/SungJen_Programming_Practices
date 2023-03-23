@@ -30,7 +30,7 @@ def make_food(food_name):
 # TODO: Prompt user by asking which food do they want?
 while True:
     print("Hamburger: $3.0\nSandwich: $2.5\nHot-dog: $1.5")
-    prompt = input("What would you like? (hamburger/sandwich/hot-dog)\n")
+    prompt = input("What would you like? (hamburger/sandwich/hot-dog)\n").lower()
     # TODO: Turn off the Vendor Machine by entering “off” to the prompt
     if prompt == "off":
         break
