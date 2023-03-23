@@ -29,6 +29,7 @@ def make_food(food_name):
 
 # TODO: Prompt user by asking which food do they want?
 while True:
+    print("Hamburger: $3.0\nSandwich: $2.5\nHot-dog: $1.5")
     prompt = input("What would you like? (hamburger/sandwich/hot-dog)\n")
     # TODO: Turn off the Vendor Machine by entering “off” to the prompt
     if prompt == "off":
@@ -38,6 +39,7 @@ while True:
         for key in resources:
             print(f"{key.title()}: {resources[key]}")
         print(f"Money: {profit}")
+        print("________________")
     # TODO: When receive food order, check resources sufficient
     elif prompt == "hamburger" or prompt == "sandwich" or prompt == "hot-dog":
         check_resources(prompt)
