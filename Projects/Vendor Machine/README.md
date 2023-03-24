@@ -1,6 +1,6 @@
 **Project description**
 
-A simulated vendor machine that automatically update resources.
+A simulated vendor machine that shows menu and updates resources automatically.
 
 **Motivation**
 
