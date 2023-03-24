@@ -1,12 +1,13 @@
 **Project description**
 
-A simulated vendor machine that will automatically renew resources.
+A simulated vendor machine that automatically update resources.
 
 **Motivation**
 
 1. Practice using for loop to iterate dictionaries of the vendor machine.
 2. Practice using control flow to decide the operation of vendor machine
 3. Learn to differentiate global scope and local value to modify global constant.
+4. Learn to use PyCharm for professional code editing. 
 
 **How to use**
 1. Enter "report" to see how many resources are left.
