@@ -1,19 +1,16 @@
 **Project Description**
 
-A program that helps you create mail automatically.
+A program that gives you the current logitude and latitude of the Internatioanl Space Station.
 
 
 **Motivation**
 
-1. Apply the concept of absolute/relative file path.
-2. Apply context manager  *with open* to read and write txt files.
-3. Apply string functions  *replace(),  rstrip()*  to modify letter context.
+1. Apply request module with API.
+2. Apply json format data read through.
+
 
 **How to use**
-1. Download as a zip file and pull into your IDLE
-2. Modify the letter text as you wanted.
-3. Modify the invitation list as you wanted.
-4. Run the prgogram and the newly generated letters will show on "Output" folder
+1. Download as zip file and run the *main.py* from command line.
+2. The prgogram will then automatically show the current logitude and latitude of ISS.
 
-
-![Screenshot 2023-03-30 120226](https://user-images.githubusercontent.com/20420765/228726287-8f4cd58a-9d33-4b58-8c19-ae801c6f5dd3.png)
+![image](https://user-images.githubusercontent.com/20420765/232964559-9f1e012a-81fa-4a3b-90e3-416fdf064728.png)
